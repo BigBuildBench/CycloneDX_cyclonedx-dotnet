@@ -1,0 +1,12 @@
+{
+    "name": "devcontainer",
+    "build": {
+        "dockerfile": "Ubuntu22.04/Dockerfile",
+        "context": ".."
+    },
+    "extensions": [
+        "ms-dotnettools.csharp",
+        "redhat.vscode-yaml",
+        "ms-azuretools.vscode-docker"
+    ]
+}
